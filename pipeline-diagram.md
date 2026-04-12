@@ -93,17 +93,3 @@ Runtime            Entra ID (JWT auth)           Yes — 401 unauthorized
                    APIM (rate limit + secret)    Yes — 429 / 403
                    Key Vault (managed identity)  Yes — no secrets in code
 ```
-
----
-
-## Quick Reference
-
-| Question | Answer |
-|----------|--------|
-| Where is the code? | GitHub: `BeaconBay/Lia.Next` |
-| Where are Docker images? | Azure Container Registry: `azaicrdevuaen001` |
-| Where does it deploy? | Azure App Service (dev environment) |
-| What triggers deployment? | Merge to `main` |
-| What triggers CI? | PR or push to `main` |
-| How many CI checks? | 4 (lint, backend, security, sbom) |
-| Who reviews PRs? | 1 approval minimum |
