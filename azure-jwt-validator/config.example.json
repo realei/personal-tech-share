@@ -1,0 +1,15 @@
+{
+  "tenant_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+  "client_id": "yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy",
+  "app_id_uri": "api://yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy",
+  "token": "eyJ0eXAiOiJKV1QiLC...PASTE-THE-TOKEN-HERE...",
+  "audiences": [
+    "00000003-0000-0000-c000-000000000000",
+    "custom-audience-to-try"
+  ],
+  "issuers": [
+    "https://login.microsoftonline.com/{tenant_id}/v2.0",
+    "https://sts.windows.net/{tenant_id}/"
+  ],
+  "verify_exp": true
+}
